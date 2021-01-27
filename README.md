@@ -22,4 +22,6 @@
 
 打开浏览器地址： `localhost:8080`
 
+修改用户root的密码
 
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
